@@ -7,7 +7,6 @@ export const Product = model("Product", new Schema({
     },
     icon: {
       type: String,
-      required: true,
     },
     imagePath: {
       type: String,
